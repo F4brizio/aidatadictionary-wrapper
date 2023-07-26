@@ -1,0 +1,37 @@
+{
+    "name": "ecoding.dev/aidatadictionary-wrapper",
+    "description": "AI DATA Dictionary API Client",
+    "version": "2.1.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabrizio Piminchumo",
+            "email": "fabrizio@ecoding.dev"
+        }
+    ],
+    "homepage": "https://github.com/F4brizio/aidatadictionary-wrapper",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecoding\\DataDictionaryAPI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ecoding\\DataDictionaryAPI\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ecoding\\DataDictionaryAPI\\DataDictionaryAPIServiceProvider"
+            ],
+            "aliases": {
+                "Commentator": "Ecoding\\DataDictionaryAPI\\Facades\\DataDictionaryAPI"
+            }
+        }
+    }
+}

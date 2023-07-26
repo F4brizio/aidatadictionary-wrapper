@@ -1,0 +1,44 @@
+# Ignorar directorios y archivos generados por Composer y npm
+/vendor
+/node_modules
+/yarn-error.log
+
+# Ignorar archivos de configuración específicos de desarrollo local
+.env
+.env.*
+.phpunit.result.cache
+public/mix-manifest.json
+public/hot
+storage/*.key
+Homestead.json
+Homestead.yaml
+
+# Ignorar archivos de respaldo y temporales
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+**/*.log
+**/*.log.*
+**/*.swp
+**/.phpunit.result.cache
+**/.DS_Store
+**/Thumbs.db
+
+# Ignorar archivos de configuración para el IDE o editor
+.idea
+.vscode
+
+# Ignorar archivos de compilación
+public/css/*
+public/js/*
+public/mix-manifest.json
+
+# Ignorar archivos de dependencias y build en la carpeta src
+/src/vendor
+/src/node_modules
+/src/build
+
+# Ignorar el archivo composer.lock para evitar conflictos en las dependencias
+composer.lock
