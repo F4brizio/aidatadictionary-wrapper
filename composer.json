@@ -1,7 +1,7 @@
 {
     "name": "fabrizio/aidatadictionary-wrapper",
     "description": "AI DATA Dictionary API Client",
-    "version": "2.1.0",
+    "version": "1.0",
     "type": "library",
     "license": "MIT",
     "authors": [
