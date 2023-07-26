@@ -33,5 +33,6 @@
                 "Commentator": "Ecoding\\DataDictionaryAPI\\Facades\\DataDictionaryAPI"
             }
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
